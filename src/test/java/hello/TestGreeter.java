@@ -71,5 +71,15 @@ public class TestGreeter {
       assertEquals(g.getName(),"asr test");
 
    }
+   
+    @Test
+   
+    public void newtestASRGreeterFail() {
+       
+       g.setName("asr test to fail");
+
+      assertEquals(g.getName(),"fails");
+
+   }
 
 }
