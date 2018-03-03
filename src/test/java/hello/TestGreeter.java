@@ -66,7 +66,7 @@ public class TestGreeter {
     
     public void newtest_ANA_GreeterPass() {
         
-        g.setName("Arys pass test");
+        g.setName("Arys pass test"); 
         
         assertEquals(g.getName(),"Arys pass test");
         
