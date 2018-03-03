@@ -71,15 +71,5 @@ public class TestGreeter {
         assertEquals(g.getName(),"Arys pass test");
         
     }
-    
-    @Test
-    
-    public void newtestAryGreeterFail() {
-        
-        g.setName("Arys test to fail");
-        
-        assertEquals(g.getName(),"fails");
-        
-    }
 
 }
