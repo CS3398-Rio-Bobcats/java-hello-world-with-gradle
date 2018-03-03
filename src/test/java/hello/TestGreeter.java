@@ -64,11 +64,11 @@ public class TestGreeter {
    
    @Test
     
-    public void newAryGreeterPass() {
+    public void new_ANA_GreeterPass() {
         
-        g.setName("Arys test");
+        g.setName("Arys pass test");
         
-        assertEquals(g.getName(),"Arys test");
+        assertEquals(g.getName(),"Arys pass test");
         
     }
     
