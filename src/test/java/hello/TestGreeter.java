@@ -71,5 +71,13 @@ public class TestGreeter {
      assertEquals(g.getName(),"This is sifa's pass test");
           
  }
+ @Test
      
+     public void newtestsvGreeterfail() {
+          
+          g.setName("This is sifa's fail test");
+          
+          assertEquals(g.getName(),"it Fails!!");
+     
+}
 }
