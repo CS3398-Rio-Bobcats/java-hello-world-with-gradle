@@ -61,5 +61,15 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
+   
+   @Test
+    
+    public void newAryGreeterPass() {
+        
+        g.setName("Arys test");
+        
+        assertEquals(g.getName(),"Arys test");
+        
+    }
 
 }
