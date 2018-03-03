@@ -64,7 +64,7 @@ public class TestGreeter {
    
    @Test
     
-    public void new_ANA_GreeterPass() {
+    public void newtest_ANA_GreeterPass() {
         
         g.setName("Arys pass test");
         
