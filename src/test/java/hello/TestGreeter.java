@@ -75,5 +75,20 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello Aunt Jemima!");
 
    }
+   
+   @Test
+
+    public void newTest_ZS_GreeterFail()
+
+    {
+
+        g.setName("Aunt Jemima");
+
+        assertEquals(g.getName(),"Aunt Sue");
+
+        assertEquals(g.sayHello(),"Hello Aunt Anna!");
+
+    }
+
 
 }
