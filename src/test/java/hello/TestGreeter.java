@@ -75,5 +75,20 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello Tanks!");
 
    }
+   
+   @Test
+
+   public void newTest_JP_GreeterFail() 
+
+   {
+
+      g.setName("Tanks");
+
+      assertNotEquals(g.getName(), "Tanks");
+
+      assertNotEquals(g.sayHello(), "Hello Tanks!");
+
+   }
+
 
 }
